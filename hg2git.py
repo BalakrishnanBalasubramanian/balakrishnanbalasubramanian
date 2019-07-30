@@ -113,3 +113,4 @@ def get_git_sha1(name,type='heads'):
     return l[0:40]
   except subprocess.CalledProcessError:
     return None
+  #adding a comment to see the git repo hash and diff
